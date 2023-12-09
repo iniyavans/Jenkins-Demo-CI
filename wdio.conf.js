@@ -51,9 +51,8 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome',
-        'goog:chromeOptions': {
-            args: ['--headless', '--disable-gpu'] // Enable headless mode and disable GPU acceleration for Chrome
+        browserName: 'chrome'
+         // Enable headless mode and disable GPU acceleration for Chrome
         }
     }],
 
